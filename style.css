@@ -1,4 +1,4 @@
-.{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -11,6 +11,9 @@
     font-family: Arial;
     display: flex;
     justify-content: center;
+    height: 20vh;
+    padding-top: 20px;
+    
 }
 
 .header{
@@ -20,6 +23,7 @@
     display: flex;
     justify-content: center;
     gap: 20px;
+    padding-bottom: 50px;
 
 }
 
@@ -36,7 +40,7 @@
     padding-top: 30px;
     padding-bottom: 100px;
     font-family: Arial;
-    box-shadow: 5px;
+    box-shadow: 0 10px 10px gray;
     padding-left: 30px;
 }
 
@@ -48,7 +52,7 @@
     padding-bottom: 100px;
     border-radius: 5px;
     font-family: Arial;
-    box-shadow: 5px;
+    box-shadow: 0 10px 10px gray;
     padding-left: 30px;
 }
 
@@ -60,7 +64,7 @@
     font-family: Arial;
     color: white;
     gap: 20px;
-    padding-top: 30px;
+    padding-top: 70px;
     padding-bottom: 20px;
-
+height: 20vh;
 }
